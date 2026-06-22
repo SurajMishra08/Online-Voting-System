@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "./Hero1";
+import HeroSection from "./hero1";
 import WhyChoose from "./hero2";
 import HowItWorks from "./hero3";
 import WhyChooseVoteSecure from "./hero4";

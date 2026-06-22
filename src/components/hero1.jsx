@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img from "../assets/Online voting system illustration.jpeg";
+import img from "../assets/online-voting-system-illustration.jpeg";
 
 function HeroSection() {
   return (
