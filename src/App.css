@@ -1,0 +1,591 @@
+
+
+.stat-card {
+  border-radius: 15px;
+  border: none;
+  color: #222;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.dashboard-icon {
+  width: 70px;
+}
+
+/* Background styles */
+.bg-purple {
+  background: linear-gradient(135deg, #e8c3e8, #d9a7d9);
+}
+
+.bg-blue {
+  background: linear-gradient(135deg, #b7d3ea, #8fbadf);
+}
+
+.bg-green {
+  background: linear-gradient(135deg, #d7e8b7, #bcd98f);
+}
+
+.bg-pink {
+  background: linear-gradient(135deg, #e6b3d1, #d98fc4);
+}
+
+/* Tabs */
+.tabs-container {
+  background: #d9e1e8;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.tab {
+  border: none;
+  background: transparent;
+  padding: 10px 30px;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.tab.active {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tab:hover {
+  background: #fff;
+}
+
+.tabs-container {
+  background: #d9e1e8;
+  border-radius: 30px;
+  padding: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  background: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  transform: scale(1);
+}
+
+.tab:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/*hero1*/
+body {
+  background-color: #f8f9fa;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 15px;
+}
+.bottomfeatures{
+  background-color: white;
+  height: 60px;
+  border: 1px;
+}
+
+/*hero2*/
+
+.card-style {
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.card-style:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 28px;
+}
+
+/* Background Colors */
+.bg-blue {
+  background-color: #a8c7e8;
+}
+
+.bg-yellow {
+  background-color: #e6e6b8;
+}
+
+.bg-pink {
+  background-color: #e6c6e6;
+}
+
+.bg-green {
+  background-color: #d4e6c6;
+}
+
+/*hero3*/
+
+/* Step Box */
+.step-box {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Number Circle */
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #5b86e5, #36d1dc);
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+/* Heading */
+.step-box h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.step-box p {
+  color: #333;
+  font-size: 15px;
+}
+
+ /*dashboard */
+ .cardd{
+  display: flex;
+  justify-content: space-between;
+ }
+ /* General */
+body {
+  background-color: #f5f7fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Stats Cards */
+.stat-card {
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Colors */
+.blue {
+  background: linear-gradient(135deg, #5b86e5, #36d1dc);
+}
+
+.green {
+  background: linear-gradient(135deg, #56ab2f, #a8e063);
+}
+
+.pink {
+  background: linear-gradient(135deg, #d66d75, #e29587);
+}
+
+/* Election Cards */
+.election-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.election-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Past card */
+.election-card.past {
+  opacity: 0.9;
+}
+
+/* Buttons */
+.vote-btn {
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  color: white;
+  border: none;
+}
+
+.vote-btn:hover {
+  opacity: 0.9;
+}
+
+.result-btn {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+}
+
+.result-btn:hover {
+  opacity: 0.9;
+}
+
+.stat-card svg {
+  opacity: 0.9;
+}
+
+/* elect */
+ .candidate-card {
+          border-radius: 12px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .candidate-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .candidate-card.selected {
+          border: 2px solid #0d6efd;
+          box-shadow: 0 0 15px rgba(13,110,253,0.4);
+        }
+
+        button:disabled {
+          opacity: 0.6;
+          cursor: not-allowed;
+        }
+
+        .hero3{
+          float: left;
+        }
+
+/* hero4 */
+ .main-bg {
+          background: #f4f6fb;
+          min-height: 100vh;
+        }
+
+        .back-btn {
+          background: #e6f5c9;
+          border-radius: 20px;
+          font-size: 14px;
+          float: left;
+        }
+
+        .stat-card {
+          padding: 20px;
+          border-radius: 15px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+          transition: 0.3s;
+        }
+
+        .stat-card:hover {
+          transform: translateY(-5px);
+        }
+
+        .green-card {
+          background: #dff2bf;
+          color: #30CE42;
+        }
+
+        .purple-card {
+          background: linear-gradient(135deg, #d9a7ff, #b993d6);
+          color: #9A0E8C;
+        }
+
+        .blue-card {
+          background: #cfe2f3;
+          color: #4885DB; 
+        }
+
+        .winner-card {
+          background: linear-gradient(90deg, #eef7c5, #d4f0a3);
+          border-radius: 20px;
+          border: 2px solid #f1c40f;
+          box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .trophy {
+          font-size: 28px;
+          color: #d4a017;
+        }
+
+        .divider {
+          width: 2px;
+          height: 30px;
+          background: #888;
+        }
+
+        .logo-circle {
+          width: 140px;
+          height: 140px;
+          border-radius: 50%;
+          border: 4px solid orange;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: white;
+        }
+
+        .logo-circle img {
+          width: 80px;
+        }
+
+        .Tvotes{
+  font-size: 24px;
+  font-weight: 600;
+  color: black!important;
+        }
+
+        .card1{
+  background: linear-gradient(90deg, #F3FFE2, #E6FFC1);
+        }
+
+        .card2{
+  background: linear-gradient(90deg, #F4D9F8, #F3A3FF);
+        }
+
+        .card3{
+  background: linear-gradient(90deg, #CEECFF, #B8E0FF);
+        }
+
+        .text-muted1 {
+  float: left;
+}
+
+.back-btn:hover {
+ background-color: #c1dc99;
+}
+
+/* Result Page */
+.main-bg {
+  background: #f5f7fb;
+  font-family: "Segoe UI";
+}
+
+/* Back button */
+.back-btn {
+  background: #d4e157;
+  border-radius: 8px;
+}
+
+/* Header text */
+.text-muted1 {
+  color: #777;
+}
+
+/* Stat Cards */
+.stat-card {
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.green-card {
+  background: linear-gradient(135deg, #d4f5c5, #a5d6a7);
+}
+
+.purple-card {
+  background: linear-gradient(135deg, #e1bee7, #ce93d8);
+}
+
+.blue-card {
+  background: linear-gradient(135deg, #bbdefb, #90caf9);
+}
+
+/* Winner */
+.winner-card {
+  background: linear-gradient(135deg, #fff9c4, #c8e6c9);
+  border-radius: 15px;
+}
+
+.trophy {
+  color: #fbc02d;
+  font-size: 24px;
+}
+
+/* Logo */
+.logo-circle img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Chart */
+.chart-box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Candidate Cards */
+.candidate-card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.candidate-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.candidate-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Text */
+.party {
+  font-size: 13px;
+  color: #666;
+}
+
+.percent {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Progress */
+.progress-bar-custom {
+  height: 8px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+
+.main-bg {
+          background: #f4f6fb;
+          min-height: 100vh;
+        }
+
+        .back-btn {
+          background: #e6f5c9;
+          border-radius: 20px;
+          font-size: 14px;
+          float: left;
+          background-color: #E6FFC1!important;
+        }
+
+        .stat-card {
+          padding: 20px;
+          border-radius: 15px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+          transition: 0.3s;
+        }
+
+        .stat-card:hover {
+          transform: translateY(-5px);
+        }
+
+        .green-card {
+          background: #dff2bf;
+          color: #30CE42;
+        }
+
+        .purple-card {
+          background: linear-gradient(135deg, #d9a7ff, #b993d6);
+          color: #9A0E8C;
+        }
+
+        .blue-card {
+          background: #cfe2f3;
+          color: #4885DB; 
+        }
+
+        .winner-card {
+          background: linear-gradient(90deg, #eef7c5, #d4f0a3);
+          border-radius: 20px;
+          border: 2px solid #f1c40f;
+          box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .trophy {
+          font-size: 28px;
+          color: #d4a017;
+        }
+
+        .divider {
+          width: 2px;
+          height: 30px;
+          background: #888;
+        }
+
+        .logo-circle {
+          width: 140px;
+          height: 140px;
+          border-radius: 50%;
+          border: 4px solid orange;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: white;
+        }
+
+        .logo-circle img {
+          width: 80px;
+        }
+
+        .Tvotes{
+  font-size: 24px;
+  font-weight: 600;
+  color: black!important;
+        }
+
+        .card1{
+  background: linear-gradient(90deg, #F3FFE2, #E6FFC1);
+        }
+
+        .card2{
+  background: linear-gradient(90deg, #F4D9F8, #F3A3FF);
+        }
+
+        .card3{
+  background: linear-gradient(90deg, #CEECFF, #B8E0FF);
+        }
+
+        .text-muted1 {
+          float: left;
+        }
+
+    
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px;
+  }
+  .navbar-nav .btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem;
+  }
+}
+
